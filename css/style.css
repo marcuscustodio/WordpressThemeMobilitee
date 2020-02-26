@@ -1,0 +1,918 @@
+/*variaveis*/
+body {
+  font-family: "Montserrat", sans-serif; }
+
+header {
+  background-image: url("../img/fundo-escuro-cidade.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #000;
+  border: 0; }
+  header .container img {
+    margin-top: 30px; }
+  header .container .video-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    header .container .video-header p iframe {
+      width: 800px;
+      height: 450px; }
+    header .container .video-header p {
+      font-family: "Montserrat", sans-serif;
+      font-size: 20px;
+      color: #fff;
+      margin-top: 15px;
+      text-align: center;
+      line-height: 32px; }
+
+.indicadores {
+  padding-bottom: 100px; }
+  .indicadores .container h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #000;
+    margin: 100px 0;
+    font-weight: bold; }
+  .indicadores .container .content-indicadores h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 30px; }
+  .indicadores .container .porcent {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%; }
+    .indicadores .container .porcent h3 {
+      font-size: 35px;
+      color: #000;
+      font-family: "Playfair Display", serif; }
+  .indicadores .container .text-indicadores p {
+    color: #000;
+    font-size: 16px;
+    line-height: 30px;
+    max-width: 430px;
+    float: right;
+    margin-top: 20px; }
+
+.contrato {
+  background-color: #000;
+  padding: 100px 0; }
+  .contrato h2 {
+    font-size: 28px;
+    color: #FFCA4B;
+    text-align: center;
+    font-weight: bold; }
+  .contrato .content-contrato {
+    margin-top: 70px; }
+    .contrato .content-contrato .text-contrato p {
+      color: #fff;
+      font-size: 16px;
+      text-align: left;
+      line-height: 30px; }
+    .contrato .content-contrato .img-contrato img {
+      height: 320px;
+      float: right; }
+
+.investidores-atuais {
+  padding: 100px 0; }
+  .investidores-atuais h2 {
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    font-weight: bold; }
+  .investidores-atuais .content-investidores {
+    margin-top: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .investidores-atuais .content-investidores a .box-avatar {
+      margin: 30px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .investidores-atuais .content-investidores a .box-avatar img {
+        width: 130px;
+        height: 130px; }
+      .investidores-atuais .content-investidores a .box-avatar h3 {
+        font-size: 16px;
+        color: #878585;
+        font-weight: bold;
+        margin-top: 10px; }
+      .investidores-atuais .content-investidores a .box-avatar h4 {
+        font-size: 12px;
+        color: #878585; }
+      .investidores-atuais .content-investidores a .box-avatar:hover {
+        opacity: .8; }
+    .investidores-atuais .content-investidores a:hover {
+      text-decoration: none;
+      cursor: pointer; }
+  .investidores-atuais .botao {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .investidores-atuais .botao a {
+      width: 285px;
+      margin: 0 auto;
+      text-align: center;
+      background-color: #000;
+      color: #FFCA4B;
+      text-transform: uppercase;
+      padding: 20px;
+      border-radius: 50%;
+      padding: 20px 50px;
+      border-radius: 40px;
+      font-weight: bold; }
+    .investidores-atuais .botao p {
+      font-size: 12px;
+      color: #000;
+      text-align: center;
+      margin-top: 10px; }
+
+.numeros {
+  padding: 100px 0;
+  background-color: #FFCA4B; }
+  .numeros h2 {
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    font-weight: bold; }
+  .numeros .numeros-img {
+    margin-top: 100px; }
+  .numeros .numeros-text {
+    margin-top: 100px;
+    line-height: 30px; }
+
+.oportunidade {
+  padding: 100px 0; }
+  .oportunidade h2 {
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    font-weight: bold; }
+  .oportunidade .oportunidade-img {
+    margin-top: 100px; }
+  .oportunidade .oportunidade-text {
+    margin-top: 100px;
+    line-height: 30px; }
+
+.mobilitee {
+  background-image: url("../img/bg-mobilitee.svg");
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  padding: 100px 0; }
+  .mobilitee h2 {
+    font-size: 28px;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    margin: 30px 0; }
+  .mobilitee p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #fff; }
+  .mobilitee h2.right {
+    text-align: right; }
+  .mobilitee p.right {
+    text-align: right; }
+
+.escalabilidade {
+  padding: 100px 0; }
+  .escalabilidade h2 {
+    font-size: 28px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px; }
+  .escalabilidade p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 30px; }
+  .escalabilidade .escalabilidade-text {
+    margin-top: 100px; }
+    .escalabilidade .escalabilidade-text h2 {
+      text-align: left; }
+    .escalabilidade .escalabilidade-text ul {
+      list-style: none;
+      padding: 0;
+      margin-left: 20px;
+      font-size: 16px; }
+      .escalabilidade .escalabilidade-text ul li {
+        line-height: 40px;
+        position: relative; }
+        .escalabilidade .escalabilidade-text ul li:before {
+          content: "";
+          width: 15px;
+          height: 15px;
+          background-color: #000;
+          position: absolute;
+          top: 12px;
+          left: -20px;
+          border-radius: 50%; }
+  .escalabilidade .escalabilidade-img {
+    margin-top: 100px; }
+    .escalabilidade .escalabilidade-img img {
+      float: right; }
+  .escalabilidade .boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 100px; }
+    .escalabilidade .boxes .yellow-box {
+      background-color: #FFCA4B;
+      border-radius: 6px;
+      width: 315px;
+      padding: 20px 10px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column; }
+      .escalabilidade .boxes .yellow-box h3 {
+        font-size: 18px;
+        color: #000;
+        text-align: center; }
+      .escalabilidade .boxes .yellow-box p {
+        font-size: 14px;
+        text-align: center; }
+
+.nosso-time {
+  padding: 100px 0;
+  background-image: url("../img/bg-time.svg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .nosso-time h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold; }
+  .nosso-time .box-profile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 100px;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .nosso-time .box-profile a:hover {
+      text-decoration: none; }
+    .nosso-time .box-profile a .profile {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      width: 300px;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-bottom: 20px; }
+      .nosso-time .box-profile a .profile img {
+        border-radius: 50%;
+        width: 128px;
+        height: 128px;
+        border: 1px solid #DD9825; }
+      .nosso-time .box-profile a .profile h3 {
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px; }
+      .nosso-time .box-profile a .profile p {
+        text-align: center;
+        color: #fff; }
+
+.roadmap {
+  padding: 100px 0;
+  background-image: url("../img/bg-roadmap.svg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .roadmap .container .row {
+    position: relative; }
+    .roadmap .container .row:before {
+      content: "";
+      border: 1px solid #787878;
+      height: 780px;
+      position: absolute;
+      top: 20px;
+      left: 50%; }
+  .roadmap h2 {
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold; }
+  .roadmap .esquerda .dados {
+    margin-top: 40px;
+    position: relative;
+    padding: 0 25px;
+    width: 50%; }
+    .roadmap .esquerda .dados span {
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      border-radius: 50%;
+      display: block;
+      float: right;
+      position: absolute;
+      top: -20px;
+      right: -12px; }
+    .roadmap .esquerda .dados h3, .roadmap .esquerda .dados h4 {
+      color: #000;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: right; }
+    .roadmap .esquerda .dados p {
+      color: #000;
+      font-size: 16px;
+      line-height: 27px;
+      text-align: right; }
+  .roadmap .direita .dados {
+    margin-top: 40px;
+    position: relative;
+    padding-left: 15px;
+    width: 50%;
+    left: 50%; }
+    .roadmap .direita .dados span {
+      width: 20px;
+      height: 20px;
+      background-color: #000;
+      border-radius: 50%;
+      display: block;
+      float: right;
+      position: absolute;
+      top: -20px;
+      left: -8px; }
+    .roadmap .direita .dados h3, .roadmap .direita .dados h4 {
+      color: #000;
+      font-size: 16px;
+      font-weight: bold;
+      text-align: left; }
+    .roadmap .direita .dados p {
+      color: #000;
+      font-size: 16px;
+      line-height: 27px;
+      text-align: left; }
+
+.direcionamento {
+  padding: 100px 0; }
+  .direcionamento h2 {
+    color: #000;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 50px; }
+  .direcionamento img {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .direcionamento ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: left;
+    -ms-flex-align: left;
+    align-items: left; }
+    .direcionamento ul li {
+      line-height: 40px;
+      position: relative; }
+      .direcionamento ul li:before {
+        content: "";
+        width: 15px;
+        height: 15px;
+        background-color: #000;
+        position: absolute;
+        top: 12px;
+        left: -20px;
+        border-radius: 50%; }
+
+.investiu {
+  padding: 100px 0;
+  background-image: url("../img/bg-investiu.svg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .investiu h2 {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold; }
+  .investiu .investidores {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-top: 100px; }
+    .investiu .investidores .perfil {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      width: 250px; }
+      .investiu .investidores .perfil img {
+        width: 128px;
+        height: 128px;
+        border-radius: 5%; }
+      .investiu .investidores .perfil h2 {
+        font-size: 16px;
+        margin-top: 10px; }
+  .investiu .botao {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .investiu .botao a {
+      width: 320px;
+      margin: 0 auto;
+      text-align: center;
+      background-color: #FFCA4B;
+      color: #000;
+      text-transform: uppercase;
+      padding: 20px;
+      border-radius: 50%;
+      padding: 20px 50px;
+      border-radius: 40px;
+      font-weight: bold; }
+
+.sobre-investimento {
+  padding: 100px 0; }
+  .sobre-investimento h2 {
+    color: #000;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px; }
+  .sobre-investimento .question #question-acc .card-header {
+    background-color: transparent;
+    border: 1px solid #000; }
+    .sobre-investimento .question #question-acc .card-header h2 {
+      text-align: left; }
+      .sobre-investimento .question #question-acc .card-header h2 button {
+        color: #000;
+        font-size: 16px;
+        text-decoration: none; }
+        .sobre-investimento .question #question-acc .card-header h2 button:hover {
+          text-decoration: none; }
+  .sobre-investimento .question #question-acc .card-body p {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 27px;
+    color: #000; }
+
+/*[data-toggle="collapse"]{
+	&:after{
+	  display: inline-block;
+	  font: normal normal normal 14px/1 FontAwesome;
+	  font-size: 25px;
+	  text-rendering: auto;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	  content: "\f054";
+	  transform: rotate(90deg) ;
+	  transition: all linear 0.25s;
+	  float: left;
+	  margin-right: 20px;
+	  color: $azul;	
+	}
+	.collapsed{
+		&:after{
+			transform: rotate(90deg) ;
+		}
+	}
+}   
+[data-toggle="collapse"].collapsed:after {
+  	transform: rotate(0deg) ;
+}*/
+.contato {
+  padding: 100px 0;
+  background-image: url("../img/bg-contato.svg");
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .contato h2 {
+    color: #fff;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px; }
+  .contato .formulario-contato {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .contato .formulario-contato .nome,
+    .contato .formulario-contato .email,
+    .contato .formulario-contato .telefone,
+    .contato .formulario-contato .assunto {
+      width: 40%;
+      padding: 10px;
+      margin: 15px;
+      border: 1px solid #000; }
+    .contato .formulario-contato ::-webkit-input-placeholder {
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-left: 10px; }
+    .contato .formulario-contato ::-moz-placeholder {
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-left: 10px; }
+    .contato .formulario-contato :-ms-input-placeholder {
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-left: 10px; }
+    .contato .formulario-contato :-moz-placeholder {
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-left: 10px; }
+    .contato .formulario-contato .mensagem {
+      width: 83%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      border: 1px solid #000;
+      margin: 15px 15px; }
+      .contato .formulario-contato .mensagem ::-webkit-input-placeholder {
+        color: #000;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-left: 10px; }
+      .contato .formulario-contato .mensagem ::-moz-placeholder {
+        color: #000;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-left: 10px; }
+      .contato .formulario-contato .mensagem :-ms-input-placeholder {
+        color: #000;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-left: 10px; }
+      .contato .formulario-contato .mensagem :-moz-placeholder {
+        color: #000;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-left: 10px; }
+    .contato .formulario-contato .enviar {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 380px;
+      height: 48px;
+      background-color: #FFCA4B;
+      color: #000;
+      font-weight: bold;
+      text-transform: uppercase;
+      border: 0;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin-top: 50px;
+      margin-left: 15px; }
+
+footer {
+  height: 100px;
+  background-color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  footer p {
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+    text-align: center; }
+
+/*RESPONSIVE*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  header .container .video-header p iframe {
+    width: 600px;
+    height: 300px; }
+  .content-indicadores {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .contrato .content-contrato .img-contrato img {
+    float: none;
+    width: 100%; }
+  .numeros .numeros-img img {
+    width: 100%; }
+  .escalabilidade .boxes .yellow-box {
+    margin: 0 10px; }
+  .roadmap {
+    background-position: center; }
+    .roadmap .container .row:before {
+      height: 1000px; } }
+
+/*fim*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  header .container .video-header p iframe {
+    width: 500px;
+    height: 300px; }
+  .direcionamento img {
+    width: 100%; }
+  .content-indicadores {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .indicadores .container .text-indicadores p {
+    text-align: center; }
+  .contrato .content-contrato {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .contrato .content-contrato .text-contrato p {
+      text-align: center; }
+    .contrato .content-contrato .img-contrato img {
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      float: none; }
+  .numeros .numeros-text p {
+    text-align: center; }
+  .roadmap {
+    background-position: center; }
+    .roadmap .container .row:before {
+      top: 40px;
+      height: 1200px; }
+    .roadmap .esquerda .dados span {
+      top: 0; }
+    .roadmap .direita .dados span {
+      top: 0; }
+  .contato .formulario-contato form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  .contato .formulario-contato .mensagem {
+    width: 86%; }
+  .oportunidade .oportunidade-img img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto; }
+  .oportunidade .oportunidade-text p {
+    text-align: center; }
+  .escalabilidade .escalabilidade-img img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    float: none; }
+  .escalabilidade .boxes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px; }
+    .escalabilidade .boxes .yellow-box {
+      margin: 20px 0; }
+  .nosso-time .box-profile .profile {
+    width: 230px; } }
+
+@media (max-width: 575.98px) {
+  header {
+    height: auto; }
+  .direcionamento img {
+    width: 100%; }
+  .collaped, .collapsed {
+    white-space: normal; }
+  .contrato .content-contrato .img-contrato img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    width: 100%; }
+  .escalabilidade .boxes {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .escalabilidade .boxes .yellow-box {
+      margin: 20px 0; }
+  .escalabilidade .escalabilidade-img img {
+    float: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto; }
+  .numeros .numeros-img img {
+    width: 100%; }
+  .oportunidade .oportunidade-img img {
+    width: 100%; }
+  .contato .formulario-contato .enviar {
+    width: 100%; }
+  .contato .formulario-contato form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 80%; }
+    .contato .formulario-contato form .nome,
+    .contato .formulario-contato form .email,
+    .contato .formulario-contato form .telefone,
+    .contato .formulario-contato form .assunto {
+      margin: 15px 0; }
+    .contato .formulario-contato form .nome,
+    .contato .formulario-contato form .email,
+    .contato .formulario-contato form .telefone,
+    .contato .formulario-contato form .assunto,
+    .contato .formulario-contato form .mensagem {
+      width: 100%; }
+  .roadmap .container .row:before {
+    left: 20px;
+    top: 50px; }
+  .roadmap .esquerda .dados {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start; }
+    .roadmap .esquerda .dados span {
+      top: 0;
+      left: -5px; }
+    .roadmap .esquerda .dados h3, .roadmap .esquerda .dados h4 {
+      float: left; }
+    .roadmap .esquerda .dados p {
+      text-align: left; }
+  .roadmap .direita .dados {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    position: initial;
+    margin-left: 10px; }
+    .roadmap .direita .dados span {
+      top: 40px;
+      left: 12px; }
+    .roadmap .direita .dados h3, .roadmap .direita .dados h4 {
+      float: left; }
+    .roadmap .direita .dados p {
+      text-align: left; }
+  .investiu .investidores {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .investiu .investidores .perfil {
+      margin: 20px 0; }
+  .formulario-contato form .mensagem {
+    margin: 15px 0; } }
+
+/*fim resposnive*/
